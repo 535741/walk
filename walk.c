@@ -60,10 +60,10 @@ int main(void){
                 sprite_char = getch();
                 break;
             case 'w':
-                scr_dump("ascii.txt");
+                scr_dump("asci_art.txt");
                 break;
             case 'r':
-                scr_restore("ascii.txt");
+                scr_restore("ascii_art.txt");
                 break;
             case 'q':
                 endwin();
